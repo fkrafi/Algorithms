@@ -21,7 +21,7 @@ void compute_prefix_function(){
 	}
 }
 
-int kmp(){
+void kmp(){
 	int i;
 	int k = -1;
 	compute_prefix_function();
@@ -35,7 +35,6 @@ int kmp(){
 			k = pi[k];
 		}
 	}
-	return 1;
 }
 
 int main(){
