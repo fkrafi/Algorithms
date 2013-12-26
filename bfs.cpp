@@ -37,7 +37,7 @@ void bfs(int S){
 				color[v] = GRAY;
 				d[v] = d[u] + 1;
 				pi[v] = u;
-				Q.push(u);
+				Q.push(v);
 			}
 		}
 		color[u] = BLACK;
